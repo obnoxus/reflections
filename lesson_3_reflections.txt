@@ -1,0 +1,16 @@
+How to Use Git and GitHub
+
+Reflections - Lesson 3 - Creating an Modifying a Repository
+
+-- What happens when you initialize a repository?  Why do you need to do it?
+
+An empty Git Repo gets created by way of a .git folder being added to the directory.
+
+It needs to be done because it creates the Repo, we need a Repo.
+
+
+-- How is the staging area different from the working directory and the repository?  What value do you think it offers.
+
+The staging area sits between the working directory and the repository.
+
+It allows you to only commit the files you want to at any time.
