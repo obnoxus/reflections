@@ -1,0 +1,57 @@
+How to Use Git and GitHub
+
+Reflections - Navigating a Commit History
+
+I would rather use filemerge then the Terminal because you can see the actual file contents side by side and see the difference very clearly.
+
+-- How did viewing a diff between two versions of a file help you see the big that was introduced?
+
+Being able to list the changes and then go through them made it easy to find the issue.  That being said I would rather use FileMerge because the output is much more clear.
+
+
+-- How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Being able to see when something was changed should help find any newly introduced bugs or issues which will save a lot of time.
+
+
+-- What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros
+You have full control of when you to our commits so they have more of a meaning.  You can make sure that each commit has a purpose and leaves the code in a working condition.
+
+Cons
+There is always a chance of losing something because it wasn't committed.
+
+
+-- Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others like Google Docs, treat each file separately?
+
+In Git, each Commit is supposed to have a purpose, that purpose could include changes that have to be made to multiple files.  That is how coding works.  
+
+
+-- How can you use the commands git log and git diff to view the history of files?
+
+Well git log you will show you a list of commits. Based on the message and the files changed you get some information including the Commit IDs.
+
+Using git diff you see what changed between commits.
+
+
+-- How might using version control make you more confident to make changes that could break something?
+
+Since you can always go back to another commit making changes to the code is nothing to worry about.
+
+
+-- Now that you have your workspace set up, what do you want to try using Git for?
+
+I really don't know.  I learned how to go back to a previous Commit which I think could be huge for me.  I have a lot more confidence within Git.
+
+
+
+
+
+
+
+
+
+
+
+
