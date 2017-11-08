@@ -14,3 +14,39 @@ It needs to be done because it creates the Repo, we need a Repo.
 The staging area sits between the working directory and the repository.
 
 It allows you to only commit the files you want to at any time.
+
+
+-- How can you use the staging area to make sure you have one commit per logical change?
+
+You can make sure that you only add the files that you have changed that belong together in a single commit.  Then perform the commit.  You can also use the git diff --staged function to find out what was actually changed that is in the staging area.
+
+
+-- What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+
+Any time you are going to make a rather major change or try something new it would be a good idea to create a new branch for that.  That way you can always easily go back to your previous branch to go back to your original code.
+
+Branches are a labeled commit.
+
+
+-- How do the diagrams help you visualize the branch structure.
+
+It makes it easy to see what commits are parents of other commits and any commits that may be unreachable.
+
+
+
+-- What is the result of merging two branches together?  Why do we represent it in the diagram as we do?
+
+The code from each branch is merged into a single branch.  The two branches are merged into a single branch.
+
+
+
+-- What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pros of automatic merging is that it is quick and easy and if there are no conflicts or issues automatic merging is easy.  
+The cons is that there is no possible way for Git to know how to merge things if there is a conflict.
+Merging manually means that you have control over exactly what is going on but it will take time to do it.
+
+
+
+
+
